@@ -1,0 +1,83 @@
+/* *******************1199s*************** */
+@media (max-width:1199px) {
+    .hero_content h1 {
+        font-size: 45px;
+    }
+    .navbar-brand {
+        margin-right: 0;
+    }
+}
+/* *******************1199e*************** */
+
+
+/* *******************991s*************** */
+@media (max-width:991px) {
+    .hero_content h1 {
+        font-size: 40px;
+        line-height: 3rem;
+    }
+    .hero_content p {
+        font-weight: 400;
+        font-size: 18px;
+    }
+    .feature_content h3 {
+        font-size: 20px;
+    }
+    .courses_date ul {
+        display: inherit;
+        line-height: 30px;
+    }
+    .testimonial img {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .hero ul li {
+      margin-left: 15px;
+      text-align: end;
+    }
+}
+/* *******************991e*************** */
+
+
+/* *******************767s*************** */
+@media (max-width:767px) {
+    .hero_content {
+        text-align: center;
+    }
+    .feature_content {
+        margin-bottom: 2rem;
+    }
+    .course_item {
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+    .course_item:hover {
+        transform: translateY(0);
+    }
+    .testimonial img {
+        width: 50%;
+    }
+    footer p {
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+    footer ul {
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+    .copy {
+        padding-top: 0; 
+        padding-bottom: 2rem;
+    }
+}
+/* *******************767e*************** */
+
+
+/* *******************320s*************** */
+@media (max-width:320px) {
+    .copy {
+        font-size: 15px;
+    }
+ 
+}
+/* *******************320e*************** */
